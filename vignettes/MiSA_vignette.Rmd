@@ -4,9 +4,7 @@ subtitle: "Spatial analysis of microbiome imaging data"
 author:
   - Ruoqian Liu, Wodan Ling
 output:
-  rmarkdown::html_vignette:
-    toc: true
-    toc_depth: 2
+  rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{MiSA Vignette}
   %\VignetteEngine{knitr::rmarkdown}
