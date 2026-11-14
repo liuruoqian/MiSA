@@ -24,3 +24,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/liuruoqian/MiSA
+BugReports: https://github.com/liuruoqian/MiSA/issues
