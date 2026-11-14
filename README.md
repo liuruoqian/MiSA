@@ -13,7 +13,7 @@ groups, using image-based microbiome data.
 
 ## Installation
 
-You can install MiSA in R by running the code:
+To install MiSA in R, run:
 
 ``` r
 if (!requireNamespace("remotes", quietly = TRUE)) {
@@ -22,7 +22,7 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 remotes::install_github("liuruoqian/MiSA", build_vignettes = TRUE)
 ```
 
-Load MiSA in R and view the vignette for details for using MiSA.
+Load MiSA and see the vignette for a step-by-step guide.
 
 ``` r
 library(MiSA)
@@ -31,8 +31,8 @@ browseVignettes("MiSA")
 
 ## Tutorial
 
-See the [MiSA website](https://liuruoqian.github.io/MiSA/) for details.
+Find the MiSA vignette at:
+\[<https://liuruoqian.github.io/MiSA/articles/MiSA_vignette.html>\] for
+a step-by-step introduction.
 
-See the [MiSA
-vignette](https://liuruoqian.github.io/MiSA/articles/MiSA_vignette.html)
-for a step-by-step introduction.
+See MiSA website: \[<https://liuruoqian.github.io/MiSA/>\] for details.
