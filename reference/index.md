@@ -1,0 +1,28 @@
+# Package index
+
+## All functions
+
+- [`MiSA()`](https://liuruoqian.github.io/MiSA/reference/MiSA.md) : Test
+  for differential spatial patterns using MiSA
+- [`MiSA_check()`](https://liuruoqian.github.io/MiSA/reference/MiSA_check.md)
+  : Check taxa for validity prior to hypothesis testing
+- [`MiSA_data()`](https://liuruoqian.github.io/MiSA/reference/MiSA_data.md)
+  : Prepare d-curves for hypothesis testing
+- [`alpha_windows()`](https://liuruoqian.github.io/MiSA/reference/alpha_windows.md)
+  : Build observation windows from alpha shapes of high-density regions
+- [`diseaseImg.list`](https://liuruoqian.github.io/MiSA/reference/diseaseImg.list.md)
+  : Sample disease group imaging data
+- [`estimate_L()`](https://liuruoqian.github.io/MiSA/reference/estimate_L.md)
+  : Estimate L curves for two groups of images
+- [`estimate_d()`](https://liuruoqian.github.io/MiSA/reference/estimate_d.md)
+  : Estimate d-curves from L-function estimates for two groups
+- [`example_image`](https://liuruoqian.github.io/MiSA/reference/example_image.md)
+  : Example image for preprocessing
+- [`healthImg.list`](https://liuruoqian.github.io/MiSA/reference/healthImg.list.md)
+  : Sample health group imaging data
+- [`kde_est()`](https://liuruoqian.github.io/MiSA/reference/kde_est.md)
+  : Kernel density estimate of cell locations
+- [`plot_centroid()`](https://liuruoqian.github.io/MiSA/reference/plot_centroid.md)
+  : Plot cell centroids for a single image, colored by taxon
+- [`plot_regions()`](https://liuruoqian.github.io/MiSA/reference/plot_regions.md)
+  : Plot Observation Window Regions
