@@ -27,7 +27,7 @@ browseVignettes("MiSA")
 ## Tutorial
 
 Find the MiSA vignette at:
-\[<https://liuruoqian.github.io/MiSA/articles/MiSA_vignette.html>\] for
-a step-by-step introduction.
+<https://liuruoqian.github.io/MiSA/articles/MiSA_vignette.html> for a
+step-by-step introduction.
 
-See MiSA website: \[<https://liuruoqian.github.io/MiSA/>\] for details.
+See MiSA website: <https://liuruoqian.github.io/MiSA/> for details.
