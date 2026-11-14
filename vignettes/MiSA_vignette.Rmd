@@ -1,10 +1,13 @@
 ---
 title: "MiSA Vignette"
 subtitle: "Spatial analysis of microbiome imaging data"
+toc: false
 author:
   - Ruoqian Liu, Wodan Ling
 output:
-  rmarkdown::html_vignette
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 2
 vignette: >
   %\VignetteIndexEntry{MiSA Vignette}
   %\VignetteEngine{knitr::rmarkdown}
