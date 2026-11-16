@@ -1,6 +1,7 @@
 ---
 title: "MiSA Vignette"
 subtitle: "Dysbiosis analysis of image-based spatial microbiome data"
+toc: false
 author:
   - Ruoqian Liu, Wodan Ling
 output:
