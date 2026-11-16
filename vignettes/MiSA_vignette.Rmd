@@ -1,6 +1,6 @@
 ---
 title: "MiSA Vignette"
-subtitle: "Spatial analysis of microbiome imaging data"
+subtitle: "Analysis of image-based spatial microbiome data"
 toc: false
 author:
   - Ruoqian Liu, Wodan Ling
@@ -18,6 +18,8 @@ vignette: >
 body {
   font-size: 16px;
   max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 pre, code {
   font-size: 14px;      /* code blocks */
