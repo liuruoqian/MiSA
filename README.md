@@ -1,17 +1,23 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# MiSA
+# Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-MiSA identifies disease-associated spatial dysbiosis by testing whether
-the spatial organization of microbial taxa differs between clinical
-groups, using image-based microbiome data.
+# Overview
+
+This package (MiSA) conducts analysis for identifying disease-associated
+spatial dysbiosis by testing whether the spatial organization of
+microbial taxa differs between clinical groups, using image-based
+microbiome data.
 
 ## Installation
+
+Before setting up the package, users should have R version 3.5 or
+higher.
 
 To install MiSA in R, run:
 
@@ -30,6 +36,17 @@ browseVignettes("MiSA")
 ```
 
 ## Tutorial
+
+A typical analysis follows these steps:
+
+1.  **Preprocessing:** identify the region of study (i.e., the area
+    colonized by microbes) in each image and build observation windows
+    (`kde_est()`, `alpha_windows()`).
+2.  **Taxon-level testing:** characterize the spatial distribution of
+    each taxon with the summary function *d(r)* and compare it between
+    groups using the four MiSA variants.
+3.  **Community-level testing:** combine the taxon-level results to
+    assess overall spatial dysbiosis.
 
 Find the MiSA vignette at:
 <https://liuruoqian.github.io/MiSA/articles/MiSA_vignette.html> for a
