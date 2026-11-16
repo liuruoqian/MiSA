@@ -1,7 +1,6 @@
 ---
 title: "MiSA Vignette"
 subtitle: "Dysbiosis analysis of image-based spatial microbiome data"
-toc: false
 author:
   - Ruoqian Liu, Wodan Ling
 output:
@@ -111,7 +110,7 @@ single region or combine several (e.g., `W <- spatstat.geom::union.owin(wins$reg
 
 In this example, we use `region1`, the largest region, as the region of study and plot it over the example image. 
 
-```{r fig.width=10, fig.height=4}
+```{r fig.width=10, fig.height=5}
 par(mfrow=c(1,2))
 W_all <- plot_regions(wins)
 
