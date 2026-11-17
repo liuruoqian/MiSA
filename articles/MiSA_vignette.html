@@ -144,7 +144,7 @@ and <code>taxon_name</code> (the taxon identity of each cell).</p>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">img_kde</span>, main<span class="op">=</span><span class="st">"Kernel Density Estimation"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="va">img_kde</span><span class="op">$</span><span class="va">v</span>, main <span class="op">=</span> <span class="st">"Distribution of estimated density"</span>, xlab <span class="op">=</span> <span class="st">"density"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html" class="external-link">abline</a></span><span class="op">(</span>v<span class="op">=</span><span class="fl">0.002</span>, lty<span class="op">=</span><span class="fl">2</span><span class="op">)</span></span></code></pre></div>
-<p><img src="MiSA_vignette_files/figure-html/unnamed-chunk-3-1.png" class="r-plt" alt="" width="960"></p>
+<p><img src="MiSA_vignette_files/figure-html/unnamed-chunk-3-1.png" class="r-plt" alt="" width="1056"></p>
 </div>
 <div class="section level3">
 <h3 id="determine-region-of-study">Determine region of study<a class="anchor" aria-label="anchor" href="#determine-region-of-study"></a>
@@ -184,7 +184,7 @@ the region of study and plot it over the example image.</p>
 <span><span class="va">W</span> <span class="op">&lt;-</span> <span class="va">wins</span><span class="op">$</span><span class="va">region1</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">example_image</span><span class="op">$</span><span class="va">x</span>, <span class="va">example_image</span><span class="op">$</span><span class="va">y</span>, pch<span class="op">=</span><span class="fl">20</span>, col<span class="op">=</span><span class="st">"pink"</span>, cex<span class="op">=</span><span class="fl">0.1</span>, main <span class="op">=</span> <span class="st">"Microbial map with study region (window W)"</span>, xlab <span class="op">=</span> <span class="st">""</span>, ylab <span class="op">=</span> <span class="st">""</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">W</span>, add <span class="op">=</span> <span class="cn">TRUE</span>, lwd <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
-<p><img src="MiSA_vignette_files/figure-html/unnamed-chunk-5-1.png" class="r-plt" alt="" width="960"></p>
+<p><img src="MiSA_vignette_files/figure-html/unnamed-chunk-5-1.png" class="r-plt" alt="" width="1056"></p>
 <p>When running MiSA, <code>W</code> can be used as the window for this
 image by including it in the <code>groupA_window_list</code> or
 <code>groupB_window_list</code> argument of <code><a href="../reference/estimate_L.html">estimate_L()</a></code>.
