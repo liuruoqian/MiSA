@@ -139,10 +139,11 @@ locations).
 ### Sample Data
 
 We demonstrate MiSA using the sample data included in the package, which
-were simulated based on real oral biofilm imaging data. We need imaging
-data for both the health and disease groups, each provided as a named
-list of data frames, with each data frame representing one image. Ensure
-every image in the list has a name assigned to it.
+were simulated based on real oral biofilm data. We need image-based
+spatial microbiome data for both the health and disease groups, each
+provided as a named list of data frames, with each data frame
+representing one image. Ensure every image in the list has a name
+assigned to it.
 
 ``` r
 
@@ -190,7 +191,7 @@ plot_centroid(diseaseImg.list[['image1']])
 #### Estimate L Curves
 
 To estimate the $`L`$ curves, we first pass the two lists containing our
-sample imaging data, `healthImg.list` and `diseaseImg.list` to
+sample data, `healthImg.list` and `diseaseImg.list` to
 `groupA_image_list` and `groupB_image_list`, respectively.
 
 A sequence of radii, `r_all`, must be pre-specified, over which the

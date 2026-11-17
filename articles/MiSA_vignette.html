@@ -202,10 +202,11 @@ of the cell locations).</p>
 <h3 id="sample-data">Sample Data<a class="anchor" aria-label="anchor" href="#sample-data"></a>
 </h3>
 <p>We demonstrate MiSA using the sample data included in the package,
-which were simulated based on real oral biofilm imaging data. We need
-imaging data for both the health and disease groups, each provided as a
-named list of data frames, with each data frame representing one image.
-Ensure every image in the list has a name assigned to it.</p>
+which were simulated based on real oral biofilm data. We need
+image-based spatial microbiome data for both the health and disease
+groups, each provided as a named list of data frames, with each data
+frame representing one image. Ensure every image in the list has a name
+assigned to it.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">diseaseImg.list</span><span class="op">)</span>             </span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">healthImg.list</span><span class="op">)</span></span>
@@ -244,7 +245,7 @@ by plotting the centroid of each microbial cell.</p>
 </h4>
 <p>To estimate the
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>
-curves, we first pass the two lists containing our sample imaging data,
+curves, we first pass the two lists containing our sample data,
 <code>healthImg.list</code> and <code>diseaseImg.list</code> to
 <code>groupA_image_list</code> and <code>groupB_image_list</code>,
 respectively.</p>
