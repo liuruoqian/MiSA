@@ -126,7 +126,7 @@ When running MiSA, `W` can be used as the window for this image by including it 
 
 ## Sample Data
 
-We demonstrate MiSA using the sample data included in the package, which were simulated based on real oral biofilm imaging data. We need imaging data for both the health and disease groups, each provided as a named list of data frames, with each data frame representing one image. Ensure every image in the list has a name assigned to it.
+We demonstrate MiSA using the sample data included in the package, which were simulated based on real oral biofilm data. We need image-based spatial microbiome data for both the health and disease groups, each provided as a named list of data frames, with each data frame representing one image. Ensure every image in the list has a name assigned to it.
 
 ```{r}
 data(diseaseImg.list)             
@@ -149,7 +149,7 @@ plot_centroid(diseaseImg.list[['image1']])
 
 ### Estimate L Curves
 
-To estimate the $L$ curves, we first pass the two lists containing our sample imaging data, `healthImg.list` and `diseaseImg.list` to `groupA_image_list` and `groupB_image_list`, respectively. 
+To estimate the $L$ curves, we first pass the two lists containing our sample data, `healthImg.list` and `diseaseImg.list` to `groupA_image_list` and `groupB_image_list`, respectively. 
 
 A sequence of radii, `r_all`, must be pre-specified, over which the $L$ function will be evaluated. This set of radii will be used consistently across all images and must be carefully determined based on the spatial range of images.
 In this example, we pre-specified the sequence of radii as  $r=0, 6, 12, \dots, 1500$, with a step size of 6. The maximum radius, `rmax`, was set to 1500, which is $0.375 \times 4000$, with 4000 being the side length of the square image. In general, it is recommended to set the maximum $r$ no larger than 0.5 times the length of the shortest side of the enclosing study region, to account for the border effect.
