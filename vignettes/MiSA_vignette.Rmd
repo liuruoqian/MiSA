@@ -116,7 +116,7 @@ par(mfrow=c(1,2))
 W_all <- plot_regions(wins)
 
 W <- wins$region1
-plot(example_image$x, example_image$y, pch=20, col="pink", cex=0.1, main = "Microbial map with study region (window W)", xlab = "", ylab = "")
+plot(example_image$x, example_image$y, pch=20, col="pink", cex=0.1, main = "Microbial map with study region (W)", xlab = "", ylab = "")
 plot(W, add = TRUE, lwd = 2)
 ```
 
