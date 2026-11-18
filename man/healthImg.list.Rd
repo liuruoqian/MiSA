@@ -3,7 +3,7 @@
 \docType{data}
 \name{healthImg.list}
 \alias{healthImg.list}
-\title{Sample health group imaging data}
+\title{Sample image-based spatial microbiome data for the health group}
 \format{
 A named list, with one element per image. Each element is a
 data frame with columns:
@@ -21,8 +21,8 @@ template.
 healthImg.list
 }
 \description{
-A named list of data frames containing example spatial microbiome
-imaging data for the health group, used to demonstrate the MiSA
+A named list of data frames containing example image-based spatial microbiome
+data for the health group, used to demonstrate the MiSA
 workflow.
 }
 \keyword{datasets}

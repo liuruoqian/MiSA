@@ -3,7 +3,7 @@
 \docType{data}
 \name{diseaseImg.list}
 \alias{diseaseImg.list}
-\title{Sample disease group imaging data}
+\title{Sample image-based spatial microbiome data for disease group}
 \format{
 A named list, with one element per image. Each element is a
 data frame with columns:
@@ -21,8 +21,8 @@ template.
 diseaseImg.list
 }
 \description{
-A named list of data frames containing example spatial microbiome
-imaging data for the disease (e.g., mucositis) group, used to
+A named list of data frames containing example image-based spatial microbiome
+data for the disease (e.g., mucositis) group, used to
 demonstrate the MiSA workflow.
 }
 \keyword{datasets}

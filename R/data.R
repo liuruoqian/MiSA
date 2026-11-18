@@ -1,7 +1,7 @@
-#' Sample health group imaging data
+#' Sample image-based spatial microbiome data for the health group
 #'
-#' A named list of data frames containing example spatial microbiome
-#' imaging data for the health group, used to demonstrate the MiSA
+#' A named list of data frames containing example image-based spatial microbiome
+#' data for the health group, used to demonstrate the MiSA
 #' workflow.
 #'
 #' @format A named list, with one element per image. Each element is a
@@ -15,10 +15,10 @@
 #'   template.
 "healthImg.list"
 
-#' Sample disease group imaging data
+#' Sample image-based spatial microbiome data for disease group
 #'
-#' A named list of data frames containing example spatial microbiome
-#' imaging data for the disease (e.g., mucositis) group, used to
+#' A named list of data frames containing example image-based spatial microbiome
+#' data for the disease (e.g., mucositis) group, used to
 #' demonstrate the MiSA workflow.
 #'
 #' @format A named list, with one element per image. Each element is a
