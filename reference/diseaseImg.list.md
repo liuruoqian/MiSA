@@ -1,7 +1,7 @@
-# Sample disease group imaging data
+# Sample image-based spatial microbiome data for disease group
 
-A named list of data frames containing example spatial microbiome
-imaging data for the disease (e.g., mucositis) group, used to
+A named list of data frames containing example image-based spatial
+microbiome data for the disease (e.g., mucositis) group, used to
 demonstrate the MiSA workflow.
 
 ## Usage

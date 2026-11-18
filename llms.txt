@@ -63,7 +63,7 @@ See MiSA website: <https://liuruoqian.github.io/MiSA/> for details.
 - [`alpha_windows()`](https://liuruoqian.github.io/MiSA/reference/alpha_windows.md)
   : Build observation windows from alpha shapes of high-density regions
 - [`diseaseImg.list`](https://liuruoqian.github.io/MiSA/reference/diseaseImg.list.md)
-  : Sample disease group imaging data
+  : Sample image-based spatial microbiome data for disease group
 - [`estimate_L()`](https://liuruoqian.github.io/MiSA/reference/estimate_L.md)
   : Estimate L curves for two groups of images
 - [`estimate_d()`](https://liuruoqian.github.io/MiSA/reference/estimate_d.md)
@@ -71,7 +71,7 @@ See MiSA website: <https://liuruoqian.github.io/MiSA/> for details.
 - [`example_image`](https://liuruoqian.github.io/MiSA/reference/example_image.md)
   : Example image for preprocessing
 - [`healthImg.list`](https://liuruoqian.github.io/MiSA/reference/healthImg.list.md)
-  : Sample health group imaging data
+  : Sample image-based spatial microbiome data for the health group
 - [`kde_est()`](https://liuruoqian.github.io/MiSA/reference/kde_est.md)
   : Kernel density estimate of cell locations
 - [`plot_centroid()`](https://liuruoqian.github.io/MiSA/reference/plot_centroid.md)

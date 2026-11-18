@@ -1,7 +1,7 @@
-# Sample health group imaging data
+# Sample image-based spatial microbiome data for the health group
 
-A named list of data frames containing example spatial microbiome
-imaging data for the health group, used to demonstrate the MiSA
+A named list of data frames containing example image-based spatial
+microbiome data for the health group, used to demonstrate the MiSA
 workflow.
 
 ## Usage
